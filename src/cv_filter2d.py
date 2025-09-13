@@ -16,7 +16,7 @@ def ones_kernel() -> np.array:
 
 def original_kernel() -> np.array:
     # TODO: 원본을 그대로 반환하는 커널을 작성 하세요.
-    arr = [[0, 0, 0], [0, 1, 0], [0, 0, 0]]
+    arr = [[0, 0, 0], [0, 1, 0], [0, 0, 1]]
     kernel = np.array(arr, dtype=np.float32)
     return kernel
 
